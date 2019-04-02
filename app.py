@@ -5,7 +5,7 @@ from utils import wit_response, talk_back
 
 app = Flask(__name__)
 
-PAGE_ACCESS_TOKEN = "EAAD1bZAuXG2ABAILd9pY68cLAPZBOKZBwvpkhnCqm3YgZBRfRFSPfrLs0T5Lq5H4DaUT4k2y01YrdQ3NMSLE9GHiLcZCCne7Tfo2nl5XjCQxhHyqIuZBWt2cQEuZCskCzTg3eNgwZBAg2x9mNY7Hxw8SOPScGjocQW2G89jMrA8iDKC7EJjhhT6k"
+PAGE_ACCESS_TOKEN = "Token For Facebook Webhook"
 
 bot = Bot(PAGE_ACCESS_TOKEN)
 
