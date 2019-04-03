@@ -83,7 +83,7 @@ def url_button(service):
 	return {"type": "web_url","url": service.get_url(),"title": title,}
 
 
-access_token = "WG4AP4DW6BTREON25CTCTHRTPD2LI6WC"
+access_token = "xxxx"
 
 client = Wit(access_token = access_token)
 
