@@ -26,10 +26,10 @@ cheer = {
 
 
 class resource:
-''''
+'''
 declare resource class for campus resource. takes in 4 inpus: name of the resource, web-address, phone number, the action
 this class comes with getter function for returning these stored values.
-''''
+'''
 	def __init__(self, name, url, number, available_web_action):
 		self.name = name
 		self.url = url
