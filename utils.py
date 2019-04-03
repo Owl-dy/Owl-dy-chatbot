@@ -21,6 +21,10 @@ cheer = {
 
 
 class resource:
+''''
+declare resource class for campus resource. takes in 4 inpus: name of the resource, web-address, phone number, the action
+this class comes with getter function for returning these stored values.
+''''
 	def __init__(self, name, url, number, available_web_action):
 		self.name = name
 		self.url = url
@@ -64,7 +68,7 @@ situation = {'lib_room': fondren,
 'sick': health_service,
 'bus': bus}
 
-
+#packing the return into buttons for the facebook template API
 def call_button(service):
 	title = 'Call' + " " + service.get_name()
 	return {"type":"phone_number","title":title,"payload":service.get_num()}
@@ -86,6 +90,10 @@ client = Wit(access_token = access_token)
 message_text = 'h and d'
 
 def wit_response(message_text):
+	'''
+	Input is user text message. call NLP to understand the message, 
+	then return a break_down of the entities in the message. 
+	'''
 
 	#received the message after being processed by NLP
 	received = client.message(message_text)
@@ -124,6 +132,9 @@ def wit_response(message_text):
 	return break_down
 
 def talk_back(break_down):
+	'''
+	this function decides how to respond to the user based on the break_down
+	'''
 
     # provide services according to intent
 	if break_down['action'] != None:
