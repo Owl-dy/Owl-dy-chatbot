@@ -19,5 +19,5 @@ I learned everything from ground zero, and finished core development and deploye
 - Facebook messenger as the front-end
 - Webhook code deployed on Heroku
 - Wit.ai as external NLP processing
-- 
-[Architecture](images/architecture.jpg)
+
+[Architecture](images/architecture.jpg "Architecture")

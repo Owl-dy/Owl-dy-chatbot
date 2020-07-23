@@ -7,6 +7,9 @@ This code is utilized in a chatbot, which is built for a class project by Tom Fu
 '''
 
 
+'''
+A dictionary for college cheers
+'''
 cheer = {
 'baker': ['Baker is the most conveniently located college!','BAKER COMES FIRST!', 'Baker Loves Meat!', 'Baker! Hell Yeah!', 'Baker has class!', 'Baker comes first in your face!', 'Baker Women Soft Skin!', 'Baker Comes Early!', 'Baker! Hell No!', 'Baker Women Look like Men'],
 'hanszen': ['Hanszen’s got the gonorrhea … oooh-ahhh', 'Hanszen Rocks My Face Off', 'Hanszen’s got that ramma-jamma… oooh-ahhh', 'Harry Fucking Hanszen - Hanszen, Hanszen, Yeah!', 'We Jack Off & We’re Nazis', 'Hanszen stole my high school cheer… oooh-ahhh',
