@@ -20,4 +20,4 @@ I learned everything from ground zero, and finished core development and deploye
 - Webhook code deployed on Heroku
 - Wit.ai as external NLP processing
 
-[Architecture](images/architecture.jpg "Architecture")
+[Architecture](images/Architecture.JPG "Architecture")
