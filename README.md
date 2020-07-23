@@ -1,4 +1,4 @@
-# Hi this is Tom FU's chatbot desgined for the Marketing class
+# My First chatbot project desgined for Marketing Class
 
 --------
 ## How Did This Project Happened?
@@ -20,4 +20,6 @@ I learned everything from ground zero, and finished core development and deploye
 - Webhook code deployed on Heroku
 - Wit.ai as external NLP processing
 
-[Architecture](images/Architecture.JPG "Architecture")
+![Architecture](/images/Architecture.JPG "Architecture")
+-----
+## Fuctionalities
