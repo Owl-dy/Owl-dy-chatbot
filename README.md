@@ -21,5 +21,13 @@ I learned everything from ground zero, and finished core development and deploye
 - Wit.ai as external NLP processing
 
 ![Architecture](/images/Architecture.JPG "Architecture")
+
+
 -----
 ## Fuctionalities
+- **Greetings**
+![greetings](/images/greetings.JPG "greetings")
+- **College chants**
+![Chants](/images/chants.JPG "Chants")
+- Provide campus resources based on request
+![Reserving study room](/images/Request.JPG "Reserving study room")
